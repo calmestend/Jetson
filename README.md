@@ -19,20 +19,20 @@ cd build/aarch64/bin
 ```
 # Basic commands on terminal
 
-    List Files
+List Files
 
 ```bash
 ls
 ```
 
-    Print Working Directory
+Print Working Directory
 
 ```bash
 pwd
 # Example -> /home/user/Documents
 ```
 
-    Change Directory
+Change Directory
 
 ```bash
 cd <Directory>
