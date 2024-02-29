@@ -19,12 +19,14 @@ cd build/aarch64/bin
 ```
 # Basic commands on terminal
 
+___
 List Files
 
 ```bash
 ls
 ```
 
+___
 Print Working Directory
 
 ```bash
@@ -32,11 +34,52 @@ pwd
 # Example -> /home/user/Documents
 ```
 
+___
 Change Directory
 
 ```bash
 cd <Directory>
 
 # Example -> cd Documents
+
+cd .. # Move a level up
+
+cd # Move to home
+
+```
+
+___
+Copy
+
+```bash
+cp <file> <destination>
+
+# Example -> cp hello.txt directory/
+```
+___
+Remove
+
+```bash
+rm <file>
+# Example -> rm hello.txt
+
+rm -rf <directory>
+# Example -> rm directory/
+```
+
+___
+Move file
+
+```bash
+mv <origen> <destination>
+# Example -> mv hello.txt directory/
+```
+
+___ 
+Rename file
+
+```bash
+mv <originalName> <newName>
+# Example -> mv hello.txt hola.txt
 ```
 
